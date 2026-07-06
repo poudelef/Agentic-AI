@@ -30,3 +30,9 @@
 
 - [] Manually maintain a list of message in code
 - [] Provide that list of message in each followup request
+
+# Temperatue
+
+**When we want to do tasks that require less creativity then we use lower temp and if we want higher creativity we use high temp.**
+
+![alt text](image.png)
