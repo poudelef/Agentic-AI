@@ -36,3 +36,11 @@
 **When we want to do tasks that require less creativity then we use lower temp and if we want higher creativity we use high temp.**
 
 ![alt text](image.png)
+
+# Response Streaming
+
+**This displays the chunks of messages**
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
