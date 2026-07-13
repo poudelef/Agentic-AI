@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Write a Python function that takes an AWS S3 bucket name and object key as parameters, and returns a pre-signed URL that expires in 1 hour using boto3"
+  },
+  {
+    "task": "Create a JSON IAM policy document that allows read-only access to all objects in a specific S3 bucket named 'my-data-bucket' but denies access to objects with the prefix 'sensitive/'"
+  },
+  {
+    "task": "Write a regular expression that validates AWS ARN (Amazon Resource Name) format, matching patterns like 'arn:aws:s3:::bucket-name/key' or 'arn:aws:iam::123456789012:user/username'"
+  }
+]
