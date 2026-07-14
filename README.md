@@ -44,3 +44,42 @@
 ![alt text](images/image-1.png)
 
 ![alt text](images/image-2.png)
+
+# High-Level Prompt Evaluation workflow
+
+                ┌──────────────────────┐
+                │ Generate Test Cases  │
+                │      (AI #1)         │
+                └──────────┬───────────┘
+                           │
+                           ▼
+                  dataset.json created
+                           │
+                           ▼
+          For each test case in dataset
+                           │
+                           ▼
+              Ask AI to solve task
+                 (AI #2)
+                           │
+                           ▼
+               Generated code/output
+                           │
+          ┌────────────────┴──────────────┐
+          ▼                               ▼
+
+Syntax Validation AI Quality Evaluation
+(Python parser, (AI #3 acts as judge)
+JSON parser,
+Regex compiler)
+▼ ▼
+Syntax Score Model Score
+└──────────────┬───────────────┘
+▼
+Average both scores
+▼
+Save evaluation result
+▼
+Repeat for every test case
+▼
+Print average score
